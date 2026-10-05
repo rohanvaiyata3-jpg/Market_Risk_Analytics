@@ -1,0 +1,8 @@
+Ticker,Weight,Asset_Class
+AAPL,0.15,Equity
+MSFT,0.15,Equity
+JPM,0.15,Equity
+NVDA,0.15,Equity
+SPY,0.2,Equity ETF
+GLD,0.1,Commodity ETF
+TLT,0.1,Bond ETF
