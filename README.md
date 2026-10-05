@@ -377,15 +377,13 @@ sql/market_risk_analytics.sql
 
 ---
 
-# Power BI Dashboard
+## Power BI Dashboard
 
-The processed datasets are prepared for Power BI reporting.
+The Power BI dashboard provides an interactive view of portfolio performance, market risk, portfolio composition and asset-level analysis.
 
-The dashboard contains four analytical sections.
+### 01 — Portfolio Risk Overview
 
-## 01 — Portfolio Risk Overview
-
-Focus:
+**Focus:**
 
 * Overall portfolio performance
 * Key risk metrics
@@ -393,7 +391,7 @@ Focus:
 * Daily returns
 * Drawdown
 
-Key KPIs:
+**Key KPIs:**
 
 * Annualized Return
 * Annualized Volatility
@@ -402,42 +400,57 @@ Key KPIs:
 * Expected Shortfall 95%
 * Maximum Drawdown
 
+![Portfolio Risk Overview](docs/screenshots/01_portfolio_risk_overview.png)
+
 ---
 
-## 02 — Market Risk
+### 02 — Market Risk — Risk Drivers & Volatility Analysis
 
-Focus:
+**Focus:**
 
-> Risk drivers, volatility and portfolio drawdown.
+* Risk drivers
+* Portfolio volatility
+* Portfolio drawdown
+* Asset-level risk contribution
 
-Key visuals:
+**Key visuals:**
 
 * 30-Day Rolling Volatility
 * Portfolio Drawdown
 * Risk Contribution by Asset
 
+![Market Risk](docs/screenshots/02_market_risk.png)
+
 ---
 
-## 03 — Portfolio Composition
+### 03 — Portfolio Composition
 
-Focus:
+**Focus:**
 
 * Portfolio allocation
 * Asset-class exposure
 * Weight versus risk contribution
 * Portfolio exposure table
 
+![Portfolio Composition](docs/screenshots/03_portfolio_composition.png)
+
 ---
 
-## 04 — Market Analysis
+### 04 — Market Analysis
 
-Focus:
+**Focus:**
 
 * Annualized asset returns
 * Annualized asset volatility
 * Return versus risk
 * Asset statistics
 * Stress testing
+
+![Market Analysis](docs/screenshots/04_market_analysis.png)
+
+---
+
+**Power BI file:** `dashboard/Market_Risk_Analytics.pbix`
 
 ---
 
