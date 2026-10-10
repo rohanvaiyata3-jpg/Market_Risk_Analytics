@@ -194,7 +194,7 @@ Portfolio growth is calculated from cumulative daily returns and indexed to 100 
 
 The Power BI visualization is therefore labelled:
 
-> **Portfolio Growth — Indexed to 100**
+> **Portfolio Growth - Indexed to 100**
 
 ---
 
@@ -381,7 +381,7 @@ sql/market_risk_analytics.sql
 
 The Power BI dashboard provides an interactive view of portfolio performance, market risk, portfolio composition and asset-level analysis.
 
-### 01 — Portfolio Risk Overview
+### 01 - Portfolio Risk Overview
 
 **Focus:**
 
@@ -404,7 +404,7 @@ The Power BI dashboard provides an interactive view of portfolio performance, ma
 
 ---
 
-### 02 — Market Risk — Risk Drivers & Volatility Analysis
+### 02 - Market Risk - Risk Drivers & Volatility Analysis
 
 **Focus:**
 
@@ -423,7 +423,7 @@ The Power BI dashboard provides an interactive view of portfolio performance, ma
 
 ---
 
-### 03 — Portfolio Composition
+### 03 - Portfolio Composition
 
 **Focus:**
 
@@ -436,7 +436,7 @@ The Power BI dashboard provides an interactive view of portfolio performance, ma
 
 ---
 
-### 04 — Market Analysis
+### 04 - Market Analysis
 
 **Focus:**
 
